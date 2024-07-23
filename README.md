@@ -6,8 +6,8 @@ This project is designed to analyze agricultural data from the National Data and
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
-- [Running the Project](#running-the-project)
+- [Installation & Run](#installation-and-run)
+- [GitHub Codespaces](#github-codespaces)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
@@ -19,29 +19,35 @@ This project is designed to analyze agricultural data from the National Data and
 - Calculate and display average yield and cultivation area per crop (1950-2020).
 - Styled using Mantine for a clean and modern look.
 
-## Installation
+## Installation and Run
 
 1. Clone the repository:
    ```bash
    git clone <repository-url>
    cd agro-data-analysis
    ```
+   
+2. Ensure you are in the project directory.
 
-2. Install dependencies using Yarn:
+3. Install dependencies using Yarn:
    ```bash
    yarn install
    ```
-
-## Running the Project
-
-1. Ensure you are in the project directory.
-2. Start the development server:
+   
+4. Start the development server:
    ```bash
    yarn dev
    ```
 
 The application will launch in your default web browser at `http://localhost:3000`.
 
+### GitHub Codespaces
+You can also develop and run this project using GitHub Codespaces: 
+   
+   1. Click the "Code" button at the top right of the repository.
+   2. Select "Open with Codespaces" from the dropdown menu.
+   3. Once the Codespace is set up and ready, please proceed with steps 3rd and 4th from the [Installation & Run](#installation-and-run) section above.
+  
 ## Project Structure
 
 ```
